@@ -1,0 +1,33 @@
+.home-button{
+    height: 150px;
+    width: 350px;
+    border-radius: 20px;
+    font-weight: 500;
+    background: #FF8300;
+    color: white;
+    padding: 32px;
+
+    margin-bottom: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    border: 0;
+
+    transition: filter 0.2s;
+
+    img{
+        margin-right: 8px;
+    }
+
+    &:not(:disabled):hover{
+        filter: brightness(0.9);
+    } 
+
+    &:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+}

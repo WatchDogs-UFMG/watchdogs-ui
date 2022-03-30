@@ -1,0 +1,20 @@
+.ufmg-img {
+    position: absolute;
+    bottom: 15px;
+
+    cursor: pointer;
+    transition: filter 0.2s;
+
+    img{
+        max-width: 120px;
+    
+    }
+
+    a{
+        justify-content: center
+    }
+
+    &:hover{
+        filter: brightness(0.8);
+    }
+}
